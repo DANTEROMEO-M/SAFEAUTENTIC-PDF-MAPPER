@@ -1,0 +1,14 @@
+{
+  "name": "pdf-mapper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Editor visual en el navegador para mapear datos sobre plantillas PDF (y Word) y generar el código de dibujo con pdf-lib.",
+  "type": "module",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "test": "node --experimental-vm-modules --test tests/"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

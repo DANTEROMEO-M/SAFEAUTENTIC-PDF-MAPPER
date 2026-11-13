@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+
+# Plantillas PDF reales: se agregan localmente, no se publican.
+config/client/templates/*
+!config/client/templates/.gitkeep
